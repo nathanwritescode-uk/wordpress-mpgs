@@ -20,17 +20,18 @@
  * @subpackage Wordpress_Mpgs/includes
  * @author     Nathan Writes Code <nathan@nathanwritescode.com>
  */
-class Wordpress_Mpgs_Deactivator {
+class Wordpress_Mpgs_Deactivator
+{
 
-	/**
-	 * Short Description. (use period)
-	 *
-	 * Long Description.
-	 *
-	 * @since    1.0.0
-	 */
-	public static function deactivate() {
-
-	}
+    /**
+     * Short Description. (use period)
+     *
+     * Long Description.
+     *
+     * @since    1.0.0
+     */
+    public static function deactivate()
+    {
+    }
 
 }

@@ -11,6 +11,7 @@
  * @package    Wordpress_Mpgs
  * @subpackage Wordpress_Mpgs/admin/partials
  */
+
 ?>
 
 <!-- This file should primarily consist of HTML with a little bit of PHP. -->

@@ -20,17 +20,18 @@
  * @subpackage Wordpress_Mpgs/includes
  * @author     Nathan Writes Code <nathan@nathanwritescode.com>
  */
-class Wordpress_Mpgs_Activator {
+class Wordpress_Mpgs_Activator
+{
 
-	/**
-	 * Short Description. (use period)
-	 *
-	 * Long Description.
-	 *
-	 * @since    1.0.0
-	 */
-	public static function activate() {
-
-	}
+    /**
+     * Short Description. (use period)
+     *
+     * Long Description.
+     *
+     * @since    1.0.0
+     */
+    public static function activate()
+    {
+    }
 
 }
