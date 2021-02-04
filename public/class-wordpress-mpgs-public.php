@@ -13,9 +13,6 @@
 /**
  * The public-facing functionality of the plugin.
  *
- * Defines the plugin name, version, and two examples hooks for how to
- * enqueue the public-facing stylesheet and JavaScript.
- *
  * @package    Wordpress_Mpgs
  * @subpackage Wordpress_Mpgs/public
  * @author     Nathan Writes Code <nathan@nathanwritescode.com>
@@ -63,14 +60,6 @@ class Wordpress_Mpgs_Public
     {
         /**
          * This function is provided for demonstration purposes only.
-         *
-         * An instance of this class should be passed to the run() function
-         * defined in Wordpress_Mpgs_Loader as all of the hooks are defined
-         * in that particular class.
-         *
-         * The Wordpress_Mpgs_Loader will then create the relationship
-         * between the defined hooks and the functions defined in this
-         * class.
          */
 
         wp_enqueue_style($this->plugin_name, plugin_dir_url(__FILE__) . 'css/wordpress-mpgs-public.css', array(), $this->version, 'all');
@@ -85,17 +74,8 @@ class Wordpress_Mpgs_Public
     {
         /**
          * This function is provided for demonstration purposes only.
-         *
-         * An instance of this class should be passed to the run() function
-         * defined in Wordpress_Mpgs_Loader as all of the hooks are defined
-         * in that particular class.
-         *
-         * The Wordpress_Mpgs_Loader will then create the relationship
-         * between the defined hooks and the functions defined in this
-         * class.
          */
 
         wp_enqueue_script($this->plugin_name, plugin_dir_url(__FILE__) . 'js/wordpress-mpgs-public.js', array('jquery'), $this->version, false);
     }
-
 }

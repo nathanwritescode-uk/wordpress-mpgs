@@ -3,9 +3,6 @@
 /**
  * The file that defines the core plugin class
  *
- * A class definition that includes attributes and functions used across both the
- * public-facing side of the site and the admin area.
- *
  * @link       https://www.nathanwritescode.com
  * @since      1.0.0
  *
@@ -15,12 +12,6 @@
 
 /**
  * The core plugin class.
- *
- * This is used to define internationalization, admin-specific hooks, and
- * public-facing site hooks.
- *
- * Also maintains the unique identifier of this plugin as well as the current
- * version of the plugin.
  *
  * @since      1.0.0
  * @package    Wordpress_Mpgs
@@ -61,10 +52,6 @@ class Wordpress_Mpgs
     /**
      * Define the core functionality of the plugin.
      *
-     * Set the plugin name and the plugin version that can be used throughout the plugin.
-     * Load the dependencies, define the locale, and set the hooks for the admin area and
-     * the public-facing side of the site.
-     *
      * @since    1.0.0
      */
     public function __construct()
@@ -84,16 +71,6 @@ class Wordpress_Mpgs
 
     /**
      * Load the required dependencies for this plugin.
-     *
-     * Include the following files that make up the plugin:
-     *
-     * - Wordpress_Mpgs_Loader. Orchestrates the hooks of the plugin.
-     * - Wordpress_Mpgs_i18n. Defines internationalization functionality.
-     * - Wordpress_Mpgs_Admin. Defines all hooks for the admin area.
-     * - Wordpress_Mpgs_Public. Defines all hooks for the public side of the site.
-     *
-     * Create an instance of the loader which will be used to register the hooks
-     * with WordPress.
      *
      * @since    1.0.0
      * @access   private
@@ -128,9 +105,6 @@ class Wordpress_Mpgs
 
     /**
      * Define the locale for this plugin for internationalization.
-     *
-     * Uses the Wordpress_Mpgs_i18n class in order to set the domain and to register the hook
-     * with WordPress.
      *
      * @since    1.0.0
      * @access   private
@@ -215,5 +189,4 @@ class Wordpress_Mpgs
     {
         return $this->version;
     }
-
 }

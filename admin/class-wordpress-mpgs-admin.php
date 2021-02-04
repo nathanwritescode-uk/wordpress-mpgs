@@ -13,9 +13,6 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * Defines the plugin name, version, and two examples hooks for how to
- * enqueue the admin-specific stylesheet and JavaScript.
- *
  * @package    Wordpress_Mpgs
  * @subpackage Wordpress_Mpgs/admin
  * @author     Nathan Writes Code <nathan@nathanwritescode.com>

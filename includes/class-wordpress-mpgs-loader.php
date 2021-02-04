@@ -13,10 +13,6 @@
 /**
  * Register all actions and filters for the plugin.
  *
- * Maintain a list of all hooks that are registered throughout
- * the plugin, and register them with the WordPress API. Call the
- * run function to execute the list of actions and filters.
- *
  * @package    Wordpress_Mpgs
  * @subpackage Wordpress_Mpgs/includes
  * @author     Nathan Writes Code <nathan@nathanwritescode.com>
@@ -125,5 +121,4 @@ class Wordpress_Mpgs_Loader
             add_action($hook['hook'], array($hook['component'], $hook['callback']), $hook['priority'], $hook['accepted_args']);
         }
     }
-
 }
