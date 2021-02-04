@@ -8,9 +8,8 @@
  * @package           Wordpress_Mpgs
  *
  * @wordpress-plugin
- * Plugin Name:        Mastercard Payment Gateway Services for WordPress
- * Plugin URI:        https://www.nathanwritescode.com
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Plugin Name:       Mastercard Payment Gateway Services for WordPress
+ * Description:       Integrate your WordPress site with Mastercard Payment Gateway Services, without needing WooCommerce.
  * Version:           1.0.0
  * Author:            Nathan Writes Code
  * Author URI:        https://www.nathanwritescode.com
